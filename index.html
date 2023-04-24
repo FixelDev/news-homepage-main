@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container flex">
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+            </div>
+
+            <ul class="flex">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+            </ul>
+
+            <div class="navbar-toggle">
+
+            </div>
+        </div>
+    </nav>
+
+    <nav class="side-navigation">
+        <div class="nav-panel">
+            <div class="container">
+                <ul class="flex-column">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Categories</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <main>
+        <div class="container grid">
+            <div class="banner item">
+                <img class="desktop-img" src="assets/images/image-web-3-desktop.jpg" alt="web-3">
+                <img class="mobile-img" src="assets/images/image-web-3-mobile.jpg" alt="web-3">
+            </div>
+
+            <aside class="new-articles item">
+                <h2>New</h2>
+                <div class="article-preview">
+                    <h3 class="title">Hydrogen VS Electric Cars</h3>
+                    <p class="lead">
+                        Will hydrogen-fueled cars ever catch up to EVs?
+                    </p>
+                </div>
+                <div class="article-preview">
+                    <h3 class="title">The Downsides of AI Artistry</h3>
+                    <p class="lead">
+                        What are the possible adverse effects of on-demand AI image generation?
+                    </p>
+                </div>
+                <div class="article-preview">
+                    <h3 class="title">Is VC Funding Drying Up?</h3>
+                    <p class="lead">
+                        Private funding by VC firms is down 50% YOY. We take a look at what that means.
+                    </p>
+                </div>
+            </aside>
+
+            <div class="hot-topic item">
+                <h1>The Bright Future of Web 3.0?</h1>
+            </div>
+
+            <div class="daily-article-preview item flex-column">
+                <p class="lead">
+                    We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                    But is it really fulfilling its promise?
+                </p>
+
+                <button class="btn btn-primary">
+                    Read More
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <section class="top-articles flex">
+        <div class="container grid">
+            <div class="item flex">
+                <img src="assets/images/image-retro-pcs.jpg" alt="retro pcs">
+                <div class="text flex-column">
+                    <h2 class="article-place">01</h2>
+                    <h3 class="title">Reviving Retro PCs</h3>
+                    <p class="lead">
+                        What happens when old PCs are given modern upgrades?
+                    </p>
+                </div>
+            </div>
+            
+            <div class="item flex">
+                <img src="assets/images/image-top-laptops.jpg" alt="top laptops">
+                <div class="text flex-column">
+                    <h2 class="article-place">02</h2>
+                    <h3 class="title">Top 10 Laptops of 2022</h3>
+                    <p class="lead">
+                        Our best picks for various needs and budgets. 
+                    </p>
+                </div>
+            </div>
+            
+            <div class="item flex">
+                <img class="article-img" src="assets/images/image-gaming-growth.jpg" alt="gaming growth">
+                <div class="text flex-column">
+                    <h2 class="article-place">03</h2>
+                    <h3 class="title">The Growth of Gaming</h3>
+                    <p class="lead">
+                        How the pandemic has sparked fresh opportunities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <footer class="flex">
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://www.frontendmentor.io/profile/FixelDev">FixelDev</a>.
+        </div>
+    </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

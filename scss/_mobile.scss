@@ -1,0 +1,143 @@
+@media(max-width: 945px)
+{
+    .container
+    {
+        max-width: 90%;
+    }
+
+    .navbar
+    {
+        padding: 30px 0;
+
+        .logo
+        {
+            img
+            {
+                height: 30px;
+            }
+            
+        }
+
+        .container
+        {
+            ul
+            {
+                display: none;
+            }
+
+            .navbar-toggle
+            {
+                display: inline-block;
+            }
+        }
+    }
+
+
+    main
+    {
+        .grid
+        {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, fit-content(8ch));
+            max-height: 100%;
+        }
+
+
+        .item:first-child
+        {
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        .item:nth-child(2)
+        {
+            grid-column: 1;
+            grid-row: 4;
+        }
+
+        .item:nth-child(3)
+        {
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+        .item:nth-child(4)
+        {
+            grid-column: 1;
+            grid-row: 3;
+        }
+
+        .hot-topic
+        {
+            font-size: 1.4rem;
+        }
+
+        .new-articles
+        {
+            h2
+            {
+                font-size: 2.1rem;
+            }
+        }
+    }
+
+
+
+    .top-articles
+    {
+
+        .grid
+        {
+            grid-template-columns: 1fr;
+            width: 100%;
+            justify-content: flex-start;
+        }
+
+        .item
+        {
+            justify-content: flex-start;
+            img
+            {
+                height: 100%;
+                object-fit: contain;
+            }
+
+            .text
+            {  
+                .article-place
+                {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    footer
+    {
+        .attribution
+        {
+            display: none;
+        }
+        
+    }
+}
+
+@media(max-width: 400px)
+{
+    main
+    {
+        .banner
+        {
+
+            .desktop-img
+            {
+                display: none;
+            }
+    
+            .mobile-img
+            {
+                display: inline-block;
+            }
+        }
+    }
+}

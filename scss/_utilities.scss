@@ -1,0 +1,51 @@
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column
+{
+    @extend .flex;
+    flex-direction: column;
+}
+
+.grid
+{
+    display: grid;
+    gap: 25px;
+}
+
+.container
+{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.btn
+{
+    text-transform: uppercase;
+    padding: 13px 27px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    border: none;
+    transition: 0.7s;
+}
+
+.btn:hover
+{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.btn-primary
+{
+    background-color: $soft-red;
+    color: #fff;
+}
+
+.btn-primary:hover
+{
+    background-color: $very-dark-blue;
+}
